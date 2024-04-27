@@ -1,0 +1,13 @@
+.hint {
+    font-size:90%;
+}
+.circle>.hint{
+    position:relative;
+    left:20px;
+    top:22px;
+    width:0px;
+}
+.dice>.hint{
+    position:relative;
+    top:-20px;
+}

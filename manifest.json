@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name":"Dicele hint",
+    "version":"1.0.0",
+    "description":"hint for dicele.com",
+    "content_scripts":[{
+        "matches":["https://dicele.com/*"],
+        "js":[
+            "js/jquery-3.7.1.min.js",
+            "js/hint.js"
+        ],
+        "css":["css/dicehint.css"]
+    }]
+}
